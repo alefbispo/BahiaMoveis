@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Formulario extends StatelessWidget {
   final String hintText;
-
+  static const bancoDados = 'https://formulariobhm-default-rtdb.firebaseio.com';
   Formulario({required this.hintText});
 
   @override
